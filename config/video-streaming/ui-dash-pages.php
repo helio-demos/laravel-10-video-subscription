@@ -40,7 +40,7 @@ return [
     'Pagination Tables',
     'Sales Orders',
     'Transactions',
-    'Dash Admin Logs',
+    'Admin Logs',
 
 
     // Admin Profiles
@@ -83,7 +83,7 @@ return [
     'Offline',
     'No New Sales Orders',
     'Rate Limit',
-    'oast Admin Logs',
+    'Toast Admin Logs',
     'Already Approved by Another Admin',
     'Approve Processing',
     'Connection Error Toast',

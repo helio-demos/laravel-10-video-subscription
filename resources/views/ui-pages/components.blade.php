@@ -5,6 +5,11 @@
 @php
     // Get Page Data in Array
     $filePath = resource_path()."/yaml/video-streaming/component-pages/".$page.".yaml";
+@endphp
+
+@if (file_exists($filePath))
+
+  @php
     $vsCodePath = "vscode://file/".$filePath;
     $yamlContent = file_get_contents($filePath);
     $array = Symfony\Component\Yaml\Yaml::parseFile($filePath);
@@ -12,16 +17,10 @@
     $title = $array['title'];
     $subtitle = $array['subtitle'];
     $components = $array['components'];
-@endphp
+  @endphp
 
 
-{{-- <a href="{{$filePath}}">
-    Edit VS Code
-</a> --}}
-
-
-
-<div class="row justify-content-center">
+  <div class="row justify-content-center">
     <div class="col-lg-10 col-xl-9">
       <div class="card card-lg">
 
@@ -81,5 +80,18 @@
 
       </div>
     </div>
-</div>
+  </div>
+
+
+@else
+  @php
+      $fileName = basename($filePath);
+  @endphp
+  <input
+    class="input w-100"
+    type="text" value="{{$fileName}}">
+@endif
+
+
+
 @endsection
