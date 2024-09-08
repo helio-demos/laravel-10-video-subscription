@@ -32,6 +32,11 @@ config
 
 # Un Finished
 
+
+
+
+
+
 list
     list group
 
@@ -43,9 +48,23 @@ Setup
     Static Site
     Serverless Site
 
+
 Component Page
     Page YAML
     Component YAML
+
+Component Page 
+    Screens shot
+    New Page
+    Code Snippet
+
+
+
+
+
+
+
+
 
 
 video-streaming
@@ -169,3 +188,14 @@ Static Site for CDN
 
 Domain
     https://freedomain.one/Direct.sv?cmd=userDNSDone&refreshdns=Y&domainname=video-subscription.run.place
+
+
+    https://nic.eu.org/arf/en/
+
+    helio.eu.org
+
+
+    https://nic.eu.org/arf/en/domain/new/
+
+
+    
