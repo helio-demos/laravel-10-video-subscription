@@ -1,29 +1,29 @@
 
 
+Config
+    UI 
+    Blocks
+    Components
+    Pages
+    Presets
+    Routes
+Setup
+    Laravel Setup
+    Tabler Layout CDN
+    Component Page
+    Component Element
+    Static Site
+    Serverless Site
+    Domain
 
 
 
-Dash 
-Pitch Slides
-Routes
+Component
+    Comp
+    Block
+    Pages
+    Dash Pages
 
-
-UI 
-Blocks
-Components
-Pages
-Presets
-
-
-
-
-
-
-
-
-
-
-php artisan serve
 
 
 config
@@ -32,6 +32,43 @@ config
         blocks
         pages
         presets
+
+
+
+# Un Finished
+
+
+Component Page
+    Page YAML
+    Component YAML
+
+
+
+
+
+
+
+Documentation
+    Local
+    Cloud
+
+
+
+
+
+Dash 
+Pitch Slides
+
+
+
+
+
+
+
+
+
+
+
 
         
 dash routes  (dash simple)
@@ -49,9 +86,28 @@ send email example
     links at glance
 
 
+Dashboard Functions
+    Auth Login
+    Auth Logout
+
+    Playground So Seeds
+    Playground So Approve Seed
+    Playground Transations Seeds
+    
+    Transation Export
+    Transation Table
+    SO Table
+    Log Table
 
 
-dashboard simple
+    Sheet Export Transation
+
+    Sales Order Dashboard
+        Weekly
+        Monthly
+
+
+dashboard simple static pages
     Auth
         choose admin profile
         login success
@@ -75,5 +131,31 @@ dashboard simple
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+Dash MVP
+    Dash Functions
+
+
+CI/CD
+    Testing Local
+    Testing Cloud
+
+
+Static Site for CDN
+    Static Site Generate
+    Static Site for CDN
+    Static Site Testing
+    Static Site Deploy CDN
 
 
