@@ -1,5 +1,3 @@
-
-
 Config
     UI 
     Blocks
@@ -10,22 +8,12 @@ Config
 Setup
     Laravel Setup
     Tabler Layout CDN
-    Component Page
-    Component Element
-    Static Site
-    Serverless Site
     Domain
-
-
-
 Component
     Comp
     Block
     Pages
     Dash Pages
-
-
-
 config
     ui
         components
@@ -35,13 +23,32 @@ config
 
 
 
+
+
+
+
+
+
+
 # Un Finished
 
+list
+    list group
+
+
+
+Setup
+    Component Page
+    Component Element
+    Static Site
+    Serverless Site
 
 Component Page
     Page YAML
     Component YAML
 
+
+video-streaming
 
 
 
@@ -159,3 +166,6 @@ Static Site for CDN
     Static Site Deploy CDN
 
 
+
+Domain
+    https://freedomain.one/Direct.sv?cmd=userDNSDone&refreshdns=Y&domainname=video-subscription.run.place

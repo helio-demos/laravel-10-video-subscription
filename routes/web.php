@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::get('/components/{component}', function ($component) {
+    dd($component);
+    return view('welcome');
+});
+
+Route::get('/component-pages/{page}', function ($page) {
+    return view('ui-pages.components',['page'=>$page]);
+});

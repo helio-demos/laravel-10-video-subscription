@@ -14,8 +14,9 @@ return [
 
 
     //     3. Botton
-    //         1. Bottons
-    //         2. Buttons Flex Justify End
+    //         1. Botton
+    //         2. Buttons
+    //         3. Buttons Call to Action
     // Breadcump > Component > Bootstrap Basic > Button
     'Button',
 
