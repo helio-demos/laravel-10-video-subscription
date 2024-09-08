@@ -6,11 +6,11 @@
 
     @php
         $pages = [
-            'components',
-            'blocks',
-            'pages',
-            'dash-pages',
-            'presets'
+            'component',
+            'block',
+            'page',
+            'dash-page',
+            'preset'
         ];
     @endphp
     @foreach ($pages as $page)
@@ -20,14 +20,14 @@
             </div>
             <div class="list-group list-group-flush">
                 @php
-                    $components = config('video-streaming.ui-'.$page);
+                    $components = config('video-streaming.ui-'.$page.'s');
                 @endphp
                 @foreach ($components as $component)
                     @php
-                        $url = url('/component-pages/'.Str::slug($component, '-'));
+                      $url = url('/').'/component-pages/'.$page.'-'.Str::slug($component, '-');
                     @endphp
                     <a href="{{$url}}" class="list-group-item list-group-item-action">
-                        {{$component}}
+                      {{$component}}
                     </a>
                 @endforeach
             </div>

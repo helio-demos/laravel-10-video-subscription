@@ -1,11 +1,10 @@
 <?php
 // Presets
 return [
-    'Unsplash Photos',
-    'Profile Photos',
+    'Profile Illustrations',
     'Concept Vectors',
-    'Icon and Animations',
-    'Background Animations',
-    'Social Login Buttons',
-    'Icon Buttons',
+    'Animated Icons',
+    'Animated Backgrounds',
+    'Social Buttons',
+    'Preset Buttons',
 ];

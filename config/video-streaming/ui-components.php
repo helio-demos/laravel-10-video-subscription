@@ -194,7 +194,7 @@ return [
     //      Service Down
     //      Service Back Online Reload
     // Breadcump > Component > Bootstrap Basic > Tabler
-    'Tabler Basic Component',
+    'Tabler Basic',
 
 
     // 5. Tabler Drawer
