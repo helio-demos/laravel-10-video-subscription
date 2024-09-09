@@ -63,7 +63,7 @@ Artisan::command('capture-screens', function () {
       $screenshot = $page->screenshot($config);
       $md5 = md5($part);
       $fileName = substr($md5, 0, 8);
-      $savePath  = storage_path('/').'/app/screen-shot/'.$fileName.'.jpg';
+      $savePath = public_path('/').'/img/screen-shots/'.$fileName.'.jpg';
       $screenshot->saveToFile($savePath);
   });
   // Screen Capture End
