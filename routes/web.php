@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/test-db', function () {
+    // Test database connection
+    try {
+      DB::connection()->getPdo();
+    } catch (\Exception $e) {
+      die("Could not connect to the database.  Please check your configuration. error:" . $e );
+    }
 });
 
 
