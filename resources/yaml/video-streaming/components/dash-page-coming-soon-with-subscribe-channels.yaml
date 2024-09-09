@@ -1,13 +1,7 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
-body: Bootstrap 5.3 Basic Button
-content: >
-  <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
-css-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
-js-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js
-script: >
-  <script>
-    alert("Hello World");
-  </script>
+title: Dash Page Coming Soon with Subscribe Channels
+subtitle: Dash Page Coming Soon with Subscribe Channels
+body: Dash Page Coming Soon with Subscribe Channels
+content: |
+  $title = 'Our Service Will Available Soon';
+  $subtitle = 'Your Request was Not Found';
+  $actions = [];
