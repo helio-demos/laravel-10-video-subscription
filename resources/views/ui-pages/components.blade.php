@@ -29,15 +29,47 @@
 
 
         <div class="card-body markdown">
-            <h1>{{$title}}</h1>
-            @foreach ($components as $component)
+          <h1>{{$title}}</h1>
+          @foreach ($components as $component)
+
+                @php
+                    //$componentYamlFilePath = resource_path().'/yaml/video-streaming/components/button.yaml';
+                    $componentFileName = Str::slug($component,'-');
+                    $componentYamlFilePath = resource_path()."/yaml/video-streaming/components/{$componentFileName}.yaml";
+                    // If file not found create
+                    if(!file_exists($componentYamlFilePath)){
+                      $defaultContentPath = resource_path().'/yaml/video-streaming/components/default.yaml';
+                      $defaultContent = file_get_contents($defaultContentPath);
+                      File::put($componentYamlFilePath,$defaultContent);
+                    }
+
+                    $vsCodePathComponentYaml = "vscode://file/".$componentYamlFilePath;
+                    // end If file not found create
+                    //$componentConetnt = file_get_contents($componentYamlFilePath);
+                    $componentConetntArray = Symfony\Component\Yaml\Yaml::parseFile($componentYamlFilePath);
+                    //dd($componentConetnt);
+                    //dd($componentConetntArray);
+                    //dd($componentConetntArray['content']);
+                    //dd($componentConetntArray['script']);
+                    $snippetBlade = $componentConetntArray['content'];
+                @endphp
+
+
+
                 <h2 class="mt-5 pt-5">{{$component}}</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quam voluptates possimus ut non et aspernatur tempore excepturi cum quibusdam. Exercitationem quod ad commodi mollitia assumenda tempore fuga qui rem!
-                </p>
+                <h3>{{$componentConetntArray['title']}}</h3>
+                <h4>{{$componentConetntArray['subtitle']}}</h4>
+                <p>{{$componentConetntArray['body']}}</p>
 
                 <div class="language-yaml highlighter-rouge">
-                    <div class="highlight"><pre class="highlight"><code>{!! $yamlContent !!}</code></pre></div>
+                    {{-- <div class="highlight"><pre class="highlight"><code>{!! $yamlContent !!}</code></pre></div> --}}
+                    <div class="highlight"><pre class="highlight"><code>{{$snippetBlade}}</code></pre></div>
+                    @isset($componentConetntArray['script'])
+                      @php
+                          $snippetScript = $componentConetntArray['script'];
+                      @endphp
+                      <div class="highlight"><pre class="highlight"><code>{{$snippetScript}}</code></pre></div>
+                    @endisset
                 </div>
 
 
@@ -48,30 +80,32 @@
                         class="img-body"
                         alt="image desc" />
                     <div class="card-footer d-flex justify-content-end">
-                        <a href="#" class="btn btn-outline-primary me-3">
+                        <a href="{{$vsCodePathComponentYaml}}" class="btn btn-outline-primary me-3">
                             View in Model
                         </a>
-                        <a href="#" class="btn btn-outline-primary">
+                        <a href="{{$vsCodePathComponentYaml}}" class="btn btn-outline-primary">
                             View in New Page
                         </a>
                     </div>
                     <div class="card-footer pb-0">
                         <p>
                           <b>Foot Note</b><br>
-                          File names: component-yaml.yml | component-screen-capture.jpg
+                          {{-- File names: component-yaml.yml | component-screen-capture.jpg --}}
                           <br />
                           Links:
-                          <a href="#">
-                              Open Component Yaml File
+                          <a href="{{$vsCodePathComponentYaml}}">
+                              Edit Component Yaml
                           </a>
                           &nbsp;&nbsp;|&nbsp;&nbsp;
-                          <a href="#">
-                              Open Component Screen Shot File
+                          <a href="{{$vsCodePathComponentYaml}}">
+                              Open Component Screen Capture in New Tab
                           </a>
                         </p>
 
                     </div>
                 </div>
+
+
 
 
 
