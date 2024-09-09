@@ -1,6 +1,6 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Content Management
+subtitle: Block Content Management
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Content Management Database Table
+  - Block Content Management Accounts
+  - Block Content Management Configs

@@ -1,6 +1,8 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Docs
+subtitle: Block Docs
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Slides
+  - Block Starter
+  - Block Manuals
+  - Block Galleries
+  - Block Docs

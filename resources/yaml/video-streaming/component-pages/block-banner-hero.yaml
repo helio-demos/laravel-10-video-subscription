@@ -1,6 +1,12 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Banner Hero
+subtitle: Block Banner Hero
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Banner Simple
+  - Block Banner Simple Count Down
+  - Block Banner Call to Action
+  - Block Banner Call to Actions
+  - Block Banner Subscribe Channel
+  - Block Banner Subscribe Channels
+  - Block Banner Status Worker
+  - Block Banner Playground Seed
+  - Block Banner Playground Noti

@@ -1,6 +1,6 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Dashboard Setting
+subtitle: Block Dashboard Setting
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Settings
+  - Block Setting View
+  - Block Setting Manage

@@ -1,6 +1,6 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Error
+subtitle: Block Error
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Page Not Found
+  - Block Site Down
+  - Block Require Access

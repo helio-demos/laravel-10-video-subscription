@@ -1,6 +1,8 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Slide
+subtitle: Block Slide
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Slides
+  - Block Slide First
+  - Block Slide Single
+  - Block Slide End
+  - Block Slide End with Feature Links

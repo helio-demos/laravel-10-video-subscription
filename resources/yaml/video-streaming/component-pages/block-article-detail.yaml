@@ -1,6 +1,6 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Article Detail
+subtitle: Block Article Detail
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Article Detail
+  - Block Article Detail Call to Action
+  - Block Article Detail Call to Actions

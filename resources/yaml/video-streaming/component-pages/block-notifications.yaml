@@ -1,6 +1,5 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Notifications
+subtitle: Block Notifications
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Email Noti
+  - Block Chat Bot Noti

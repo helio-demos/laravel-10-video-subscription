@@ -1,6 +1,4 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Stand Alone Pages
+subtitle: Block Stand Alone Pages
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Stand Alone Page

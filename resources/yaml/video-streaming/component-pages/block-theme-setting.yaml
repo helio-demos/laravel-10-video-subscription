@@ -1,6 +1,4 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Theme Setting
+subtitle: Block Theme Setting
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Right Drawer Setting

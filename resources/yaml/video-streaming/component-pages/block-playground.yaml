@@ -1,6 +1,5 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Playground
+subtitle: Block Playground
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Playground Seed
+  - Block Playground Send Noti

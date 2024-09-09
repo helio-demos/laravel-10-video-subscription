@@ -1,6 +1,8 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Table
+subtitle: Block Table
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Pagination Table
+  - Block Logs Table
+  - Block Links Table
+  - Block Features Table
+  - Block Docs Table

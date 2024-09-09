@@ -1,6 +1,5 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Auth
+subtitle: Block Auth
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Login Success
+  - Block Logout Success

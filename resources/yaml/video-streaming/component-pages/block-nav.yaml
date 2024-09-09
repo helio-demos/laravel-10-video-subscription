@@ -1,6 +1,7 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Nav
+subtitle: Block Nav
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Nav Lite
+  - Block Nav Logo Only
+  - Block Nav Site Humberger
+  - Block Nav Dash Top

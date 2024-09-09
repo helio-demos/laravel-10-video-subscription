@@ -1,6 +1,15 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Skeletons
+subtitle: Block Skeletons
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Admin Choose Profile
+  - Block New Sales Order
+  - Block Paginate Table
+  - Block Feature List Table
+  - Block Feature Card Table
+  - Block Playground
+  - Block Callback Page
+  - Block Error Page
+  - Block Call to Action Buttons
+  - Block Setting
+  - Block Coming Soon
+  - Block Site Down

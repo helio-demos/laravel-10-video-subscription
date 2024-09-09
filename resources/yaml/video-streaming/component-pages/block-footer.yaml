@@ -1,6 +1,7 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Block Footer
+subtitle: Block Footer
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Block Dash Footer Center
+  - Block Dash Footer End
+  - Block Dash Footer Printable
+  - Block Dash Footer Center Two Lines
