@@ -31,15 +31,7 @@
         <div class="card-body markdown">
             <h1>{{$title}}</h1>
             @foreach ($components as $component)
-                <h2 class="mt-5">{{$component}}</h2>
-                <p>
-                    Path:
-                    <br />
-                    Links:
-                    <a href="#">
-                        Open Yaml File
-                    </a>
-                </p>
+                <h2 class="mt-5 pt-5">{{$component}}</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quam voluptates possimus ut non et aspernatur tempore excepturi cum quibusdam. Exercitationem quod ad commodi mollitia assumenda tempore fuga qui rem!
                 </p>
@@ -51,23 +43,35 @@
 
                 <div class="card mb-5">
                     <img
-                        src="https://preview.tabler.io/static/photos/everything-you-need-to-work-from-your-bed.jpg"
+                        {{-- src="https://preview.tabler.io/static/photos/everything-you-need-to-work-from-your-bed.jpg" --}}
+                        src="https://placehold.co/1200x400"
                         class="img-body"
                         alt="image desc" />
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-outline-primary">
+                    <div class="card-footer d-flex justify-content-end">
+                        <a href="#" class="btn btn-outline-primary me-3">
                             View in Model
                         </a>
                         <a href="#" class="btn btn-outline-primary">
                             View in New Page
                         </a>
                     </div>
+                    <div class="card-footer pb-0">
+                        <p>
+                          <b>Foot Note</b><br>
+                          File names: component-yaml.yml | component-screen-capture.jpg
+                          <br />
+                          Links:
+                          <a href="#">
+                              Open Component Yaml File
+                          </a>
+                          &nbsp;&nbsp;|&nbsp;&nbsp;
+                          <a href="#">
+                              Open Component Screen Shot File
+                          </a>
+                        </p>
+
+                    </div>
                 </div>
-
-
-
-
-
 
 
 
