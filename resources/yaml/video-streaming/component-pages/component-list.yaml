@@ -1,6 +1,9 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: List
+subtitle: Bootstrap 5.3 Basic List
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - List Item
+  - List Items
+  - List
+  - List Group
+  - List Group Item
+  - List Group Items

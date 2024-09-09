@@ -1,6 +1,7 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Tom Select
+subtitle: JavaScript Plugin Tom Select
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Messenger Conversations
+  - Chat Groups
+  - Noti Emails
+  - Email Group and Email Addresses

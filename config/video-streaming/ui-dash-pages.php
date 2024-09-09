@@ -21,7 +21,7 @@ return [
 
 
     // Auth
-    'Choose Profiles',
+    'Choose Profile',
     'Login Success',
     'Logout Success',
 

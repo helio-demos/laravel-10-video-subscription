@@ -1,6 +1,9 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Email
+subtitle: Bootstrap 5.3 Email
 components:
+  - Header
   - Button
   - Buttons
-  - Call to Action Buttons
+  - Body Typo
+  - Body Image
+  - Signature

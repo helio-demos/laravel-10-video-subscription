@@ -1,6 +1,4 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Dash Page Rate Limit
+subtitle: Dash Page Rate Limit
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Dash Page Rate Limit

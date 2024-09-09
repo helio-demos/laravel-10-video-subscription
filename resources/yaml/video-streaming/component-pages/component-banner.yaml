@@ -1,6 +1,10 @@
 title: Button
 subtitle: Bootstrap 5.3 Basic Button
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Banner
+  - Banner Callback
+  - Banner Callbacks
+  - Banner Date Counter
+  - Call to Action
+  - Call to Actions
+  - Playground Forms

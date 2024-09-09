@@ -1,6 +1,11 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Drawer
+subtitle: Tabler Drawer
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Drawer Lite
+  - Drawer Mobile Menu
+  - Drawer Site Config Lite
+  - Drawer Site Config Dark Mode
+  - Drawer Site Config Skins
+  - Drawer Site Config Localization
+  - Back Online Toast
+  - Connection Error

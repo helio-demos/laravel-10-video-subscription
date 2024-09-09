@@ -1,6 +1,13 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Sweet Alert
+subtitle: Bootstrap Sweet Alert Plugins
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Confirm
+  - Success
+  - Error
+  - Processing
+  - SOs Approve
+  - SOs Approve Processing
+  - SOs Already Approved
+  - SOs No Internet Connection
+  - Back to Online
+  - Rate Limit

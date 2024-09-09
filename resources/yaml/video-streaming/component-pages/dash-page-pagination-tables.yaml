@@ -1,6 +1,7 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Dash Page Pagination Tables
+subtitle: Dash Page Pagination Tables
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Dash Page Pagination Log Table
+  - Dash Page Pagination Transations Table
+  - Dash Page Pagination Sales Orders Table
+  - Dash Page Pagination Dash Admin Table

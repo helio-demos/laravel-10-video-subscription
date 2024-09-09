@@ -1,6 +1,9 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Lightbox
+subtitle: Bootstrap Plugin fslightboxjs
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Image
+  - Images
+  - YouTube
+  - YouTube Videos
+  - IFrame
+  - IFrame Links

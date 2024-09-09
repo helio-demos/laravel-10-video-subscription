@@ -1,6 +1,11 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Form Element
+subtitle: Bootstrap 5.3 Form Element
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Input
+  - Password
+  - Submit
+  - File
+  - File and Image Preview
+  - Reset and Submit
+  - Login
+  - Register

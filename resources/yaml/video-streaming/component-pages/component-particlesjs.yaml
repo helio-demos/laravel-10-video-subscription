@@ -1,6 +1,6 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Particles
+subtitle: Particles Js
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Red
+  - Light
+  - Black

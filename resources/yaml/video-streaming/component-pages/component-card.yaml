@@ -1,6 +1,20 @@
 title: Button
 subtitle: Bootstrap 5.3 Basic Button
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Header
+  - Card Feature
+  - Footer
+  - Footer Link
+  - Footer Links
+  - Footer Badge
+  - Footer Badges
+  - Footer Icon Badges
+  - Footer Call to Action Buttons
+  - Footer Call to Action Buttons End
+  - Footer Call to Action Justify
+  - Body Image Square Card
+  - Body Image Square Cards
+  - Body Icon Square Card
+  - Body Icon Square Cards
+  - Feature Card
+  - Feature Cards

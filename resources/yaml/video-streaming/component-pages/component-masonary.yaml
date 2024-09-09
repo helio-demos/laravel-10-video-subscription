@@ -1,6 +1,7 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Masonary
+subtitle: Bootstrap Default Masonary
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Vertical
+  - Vertical Small
+  - Vertical Extra Large
+  - Vertical with Lightbox

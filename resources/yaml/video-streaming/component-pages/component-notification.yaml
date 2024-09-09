@@ -1,6 +1,10 @@
 title: Button
 subtitle: Bootstrap 5.3 Basic Button
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Notification List Item
+  - Notification List Items
+  - Email Header
+  - Email Body
+  - Email Call to Action
+  - Email Call to Actions
+  - Email Footer

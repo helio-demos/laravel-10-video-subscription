@@ -29,7 +29,19 @@
 
 
         <div class="card-body markdown">
+
+          @env('local')
+            <p class="text-end">
+              <a href="{{$vsCodePath}}">
+                Edit Components Yaml
+              </a>
+            </p>
+          @endenv
+
           <h1>{{$title}}</h1>
+
+
+
           @foreach ($components as $component)
 
                 @php
@@ -56,7 +68,7 @@
 
 
 
-                <h2 class="mt-5 pt-5">{{$component}}</h2>
+                <h2 class="display-4 mt-5 pt-5 color-primary">{{$component}}</h2>
                 <h3>{{$componentConetntArray['title']}}</h3>
                 <h4>{{$componentConetntArray['subtitle']}}</h4>
                 <p>{{$componentConetntArray['body']}}</p>

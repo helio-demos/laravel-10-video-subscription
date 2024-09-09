@@ -1,6 +1,15 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Skeleton Loading
+subtitle: Tabler Skeleton Loading
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Card
+  - Verticle Cards
+  - Inline Cards
+  - Profile
+  - Profiles
+  - Paragraph
+  - Paragraphs
+  - Card Feature Img Circle
+  - Card Feature Img Square
+  - List Group Item
+  - List Group Items
+# https://preview.tabler.io/placeholder.html

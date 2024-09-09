@@ -1,6 +1,6 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Pagination
+subtitle: Bootstrap Pre Next Pagination
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - First Page
+  - Last Page
+  - Middle Pages

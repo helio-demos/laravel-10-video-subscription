@@ -1,6 +1,12 @@
 title: Button
 subtitle: Bootstrap 5.3 Basic Button
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Title
+  - Title and Subtitle
+  - Icon
+  - Vector Image
+  - Icon and Call to Action
+  - Icon and Call to Actions
+  - Badges
+  - Badge Uptime Status
+  - Concept Illustration with Shadow

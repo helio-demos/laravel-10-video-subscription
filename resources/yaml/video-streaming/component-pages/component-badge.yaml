@@ -1,6 +1,9 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Badge
+subtitle: Bootstrap 5.3 Basic Badge
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Badge
+  - Badge Icon
+  - Badge Icon Uptime Status
+  - Badge Icon and Text
+  - Badges
+  - Badge with Links

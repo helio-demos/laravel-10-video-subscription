@@ -1,6 +1,9 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Nav
+subtitle: Bootstrap 5.3 Basic Nav
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Lite
+  - Logo Only
+  - Hamburger menu
+  - Links
+  - Search
+  - Complex

@@ -1,6 +1,8 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
+title: Footer
+subtitle: Bootstrap 5.3 Basic Footer
 components:
-  - Button
-  - Buttons
-  - Call to Action Buttons
+  - Lite
+  - Lite Screen Capture
+  - Copyright
+  - Links
+  - Links and Copyright
