@@ -828,16 +828,7 @@ $data = [
 
 # Dash Admin Logs
 ```
-$data = [
-  'title' => 'Pagination Table',
-  'table-headers' => [
-  'rows' => [
-    [
-      ....
-    ],
-  ],
-  'paginations' => '',
-];
+
 ```
 
 
@@ -1109,7 +1100,9 @@ $data = [
   'new-sales-orders' => [],
   'script' => 'asdf',
 ];
+//https://github.com/CodeSeven/toastr?tab=readme-ov-file
 ```
+
 
 # New Sales Orders Approved by another Admin
 ```
@@ -1268,39 +1261,6 @@ $data = [
 
 
 
-
-
-
-
-
-# Settings
-```
-$data = [
-  'title' => 'Realtime New Sales Orders',
-  'settings' => [],
-];
-```
-
-
-
-# Admin Profiles
-```
-$data = [
-  'title' => 'Realtime New Sales Orders',
-  'settings' => [],
-];
-```
-
-
-# Admin Profile Setting
-```
-$data = [
-  'title' => 'Realtime New Sales Orders',
-  'settings' => [],
-];
-```
-
-
 # My Profile
 ```
 $data = [
@@ -1311,29 +1271,10 @@ $data = [
 ```
 
 
-# My Profile Setting
-```
-$data = [
-  'title' => 'Realtime New Sales Orders',
-  'settings' => [],
-];
-```
-
-
-# Setting Logout
-```
-$data = [
-  'title' => 'Realtime New Sales Orders',
-  'subtitle' => 'Realtime New Sales Orders',
-  'call-to-actions' => [],
-];
-```
-
-
     
 
 
 
 
 
-https://github.com/CodeSeven/toastr?tab=readme-ov-file
+

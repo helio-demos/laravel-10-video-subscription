@@ -1,8 +1,11 @@
-title: Dash Page Send Bot Chats
-subtitle: Dash Page Send Bot Chats
-body: Dash Page Send Bot Chats
-# content: >
-#   <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
+title: Dash Page Logout
+subtitle: Dash Page Logout
+body: Dash Page Logout
+content: |
+  $title   = 'Account Logout';
+  $action  = 'Logout';
+  $actions = [$action];
+
 # css-links:
 #   - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
 # js-links:
@@ -11,6 +14,3 @@ body: Dash Page Send Bot Chats
 #   <script>
 #     alert("Hello World");
 #   </script>
-content: |
-  $title' => 'Require Admin Login';
-  $actions = [];

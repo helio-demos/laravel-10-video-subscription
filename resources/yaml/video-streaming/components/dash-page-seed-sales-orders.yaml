@@ -1,13 +1,24 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
-body: Bootstrap 5.3 Basic Button
-content: >
-  <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
-css-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
-js-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js
-script: >
-  <script>
-    alert("Hello World");
-  </script>
+title: Dash Page Seed Sales Orders
+subtitle: Dash Page Seed Sales Orders
+body: Dash Page Seed Sales Orders
+# content: >
+#   <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
+# css-links:
+#   - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
+# js-links:
+#   - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js
+# script: >
+#   <script>
+#     alert("Hello World");
+#   </script>
+content: |
+  # $title' => 'Seed Sales Order's',
+  # # $action['url'] = '#';
+  # # $action['label'] = 'Seed';
+  # # $actions => [$action],
+  # $form => [];
+  # $examples = [];
+  $title = 'Seed Sales Order';
+  $form = [];
+  $examples = [];
+

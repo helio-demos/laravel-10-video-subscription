@@ -64,6 +64,7 @@
                     //dd($componentConetntArray['content']);
                     //dd($componentConetntArray['script']);
                     $snippetBlade = $componentConetntArray['content'];
+                    //dd($snippetBlade);
                 @endphp
 
 
@@ -73,17 +74,16 @@
                 <h4>{{$componentConetntArray['subtitle']}}</h4>
                 <p>{{$componentConetntArray['body']}}</p>
 
-                <div class="language-yaml highlighter-rouge">
-                    {{-- <div class="highlight"><pre class="highlight"><code>{!! $yamlContent !!}</code></pre></div> --}}
-                    <div class="highlight"><pre class="highlight"><code>{{$snippetBlade}}</code></pre></div>
-                    @isset($componentConetntArray['script'])
-                      @php
-                          $snippetScript = $componentConetntArray['script'];
-                      @endphp
-                      <div class="highlight"><pre class="highlight"><code>{{$snippetScript}}</code></pre></div>
-                    @endisset
-                </div>
 
+                {{-- <div class="highlight"><pre class="highlight"><code>{!! $yamlContent !!}</code></pre></div> --}}
+                {{-- <div class="highlight"><pre class="highlight"><code>{{$snippetBlade}}</code></pre></div> --}}
+                <pre class="highlight p-0"><code class="language-php">{{$snippetBlade}}</code></pre>
+                @isset($componentConetntArray['script'])
+                  @php
+                    $snippetScript = $componentConetntArray['script'];
+                  @endphp
+                  <pre class="highlight p-0"><code class="language-php">{{$snippetScript}}</code></pre>
+                @endisset
 
                 <div class="card mb-5">
                     <img

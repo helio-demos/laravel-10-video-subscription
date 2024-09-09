@@ -1,6 +1,6 @@
-title: Dash Page Page Offline
-subtitle: Dash Page Page Offline
-body: Dash Page Page Offline
+title: Dash Page My Profile
+subtitle: Dash Page My Profile
+body: Dash Page My Profile
 # content: >
 #   <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
 # css-links:
@@ -12,7 +12,7 @@ body: Dash Page Page Offline
 #     alert("Hello World");
 #   </script>
 content: |
-  $title = 'Offline';
-  $subtitle = 'No Internet Connection';
-  $actions = [];
-  // Actions > Reload This Page | Rad Trouble Shoot Instructions
+  $title = 'My Account';
+  $setting = [];
+  $setting = [$setting];
+

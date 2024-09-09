@@ -1,13 +1,8 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
-body: Bootstrap 5.3 Basic Button
-content: >
-  <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
-css-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
-js-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js
-script: >
-  <script>
-    alert("Hello World");
-  </script>
+title: Dash Page Approved By Another Admin
+subtitle: Dash Page Approved By Another Admin
+body: Dash Page Approved By Another Admin
+content: |
+  $title = 'Sweet Alert Other Admin';
+  $sweetAlert['icon'] = 'Info';
+  $sweetAlert['title'] = 'Duplicate Request';
+  $sweetAlert['subtitle'] = 'Order Was Already Approve by Another Admin';

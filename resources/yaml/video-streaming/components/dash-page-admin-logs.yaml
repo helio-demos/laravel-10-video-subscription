@@ -1,13 +1,16 @@
-title: Button
-subtitle: Bootstrap 5.3 Basic Button
-body: Bootstrap 5.3 Basic Button
+title: Dash Page Admin Logs
+subtitle: Dash Page Admin Logs
+body: Dash Page Admin Logs
 content: >
-  <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
-css-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
-js-links:
-  - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js
-script: >
-  <script>
-    alert("Hello World");
-  </script>
+  $data = [
+    'title' => 'Admin Logs',
+    'paginate' => [],
+  ];
+# css-links:
+#   - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css
+# js-links:
+#   - https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js
+# script: >
+#   // <script>
+#     // alert("Hello World");
+#   </script>
