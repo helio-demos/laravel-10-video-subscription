@@ -25,8 +25,7 @@ class DashboardController extends Controller
 
     public function newSalesOrders()
     {
-        // ...
-        dd(url('/'));
+        return view('dash.new-sales-orders');
     }
 
     public function sheetExport()

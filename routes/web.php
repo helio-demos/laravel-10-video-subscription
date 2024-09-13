@@ -39,8 +39,8 @@ Route::get('/sitemap',            'App\Http\Controllers\SitemapController@sitema
 Route::get('/dash/login',                   'App\Http\Controllers\DashboardController@authLogin');
 Route::get('/dash/auth/callback',           'App\Http\Controllers\DashboardController@authLoginCallback');
 
-Route::get('/dash/dash/news-sales-orders',  'App\Http\Controllers\DashboardController@authLogin');
-Route::get('/dash/dash/sheet-export',       'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/dashboards/new-sales-orders',  'App\Http\Controllers\DashboardController@newSalesOrders');
+Route::get('/dash/dashboards/sheet-export',       'App\Http\Controllers\DashboardController@authLogin');
 
 Route::get('/dash/platform/admin-logs',     'App\Http\Controllers\DashboardController@authLogin');
 Route::get('/dash/platform/chat-logs',      'App\Http\Controllers\DashboardController@authLogin');
