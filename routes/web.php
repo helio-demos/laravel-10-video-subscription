@@ -17,6 +17,55 @@ use Illuminate\Support\Facades\DB;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+
+Route::get('/static-site', function () {return view('welcome');});
+Route::get('/static-site/pages/{page}', function ($page) {return dd($page);});
+
+
+Route::get('/docs', function () {return view('welcome');});
+Route::get('/docs/{page-slug}', function ($pageSlug) {return dd($pageSlug);});
+Route::view('/docs/get-started',  'docs.admin-get-started');
+
+Route::get('/dash', function () {return view('welcome');});
+
+Route::get('/dev-tools', function () {return view('welcome');});
+
+Route::get('/sitemap',            'App\Http\Controllers\SitemapController@sitemap');
+
+
+
+Route::get('/dash/login', function () {return view('welcome');});
+
+Route::get('/dash/auth/callback', function () {return view('welcome');});
+
+Route::get('/dash/dash/news-sales-orders', function () {return view('welcome');});
+Route::get('/dash/dash/sheet-export', function () {return view('welcome');});
+
+Route::get('/dash/platform/admin-logs', function () {return view('welcome');});
+Route::get('/dash/platform/chat-logs', function () {return view('welcome');});
+Route::get('/dash/platform/transations', function () {return view('welcome');});
+Route::get('/dash/platform/sales-orders', function () {return view('welcome');});
+
+Route::get('/dash/settings/my-account', function () {return view('welcome');});
+Route::get('/dash/settings/logout', function () {return view('welcome');});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::get('/test-db', function () {
     // Test database connection
     try {
@@ -28,11 +77,11 @@ Route::get('/test-db', function () {
 
 
 
-Route::get('/components/{component}', function ($component) {
-    dd($component);
-    return view('welcome');
-});
+// Route::get('/components/{component}', function ($component) {
+//     dd($component);
+//     return view('welcome');
+// });
 
-Route::get('/component-pages/{page}', function ($page) {
-    return view('ui-pages.components',['page'=>$page]);
-});
+// Route::get('/component-pages/{page}', function ($page) {
+//     return view('ui-pages.components',['page'=>$page]);
+// });
