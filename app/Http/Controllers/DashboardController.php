@@ -30,8 +30,7 @@ class DashboardController extends Controller
 
     public function sheetExport()
     {
-        // ...
-        dd(url('/'));
+      return view('dash.sheet-export');
     }
 
     public function paginationTables()
