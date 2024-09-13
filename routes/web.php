@@ -42,10 +42,11 @@ Route::get('/dash/auth/callback',           'App\Http\Controllers\DashboardContr
 Route::get('/dash/dashboards/new-sales-orders',  'App\Http\Controllers\DashboardController@newSalesOrders');
 Route::get('/dash/dashboards/sheet-export',       'App\Http\Controllers\DashboardController@sheetExport');
 
-Route::get('/dash/platform/admin-logs',     'App\Http\Controllers\DashboardController@authLogin');
-Route::get('/dash/platform/chat-logs',      'App\Http\Controllers\DashboardController@authLogin');
-Route::get('/dash/platform/transations',    'App\Http\Controllers\DashboardController@authLogin');
-Route::get('/dash/platform/sales-orders',   'App\Http\Controllers\DashboardController@authLogin');
+Route::view('/dash/subscription/table',          'dash.pagination-table');
+Route::get('/dash/subscription/admin-logs',     'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/subscription/chat-logs',      'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/subscription/transations',    'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/subscription/sales-orders',   'App\Http\Controllers\DashboardController@authLogin');
 
 Route::get('/dash/settings/my-account',     'App\Http\Controllers\DashboardController@authLogin');
 Route::get('/dash/settings/logout',         'App\Http\Controllers\DashboardController@authLogin');
