@@ -49,7 +49,8 @@ Route::get('/dash/subscription/transations',    'App\Http\Controllers\DashboardC
 Route::get('/dash/subscription/sales-orders',   'App\Http\Controllers\DashboardController@authLogin');
 
 Route::get('/dash/settings/my-account',     'App\Http\Controllers\DashboardController@authLogin');
-Route::get('/dash/settings/logout',         'App\Http\Controllers\DashboardController@authLogin');
+//Route::get('/dash/settings/logout',         'App\Http\Controllers\DashboardController@authLogin');
+Route::view('/dash/settings/logout',         'dash.setting-logout');
 
 
 
