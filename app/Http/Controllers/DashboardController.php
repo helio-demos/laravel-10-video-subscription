@@ -14,8 +14,7 @@ class DashboardController extends Controller
 
     public function authLoginCallback()
     {
-        // ...
-        dd(url('/'));
+      return view('dash.login-callback');
     }
 
     public function authLogoutCallback()

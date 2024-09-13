@@ -36,9 +36,8 @@ Route::get('/dev-tools', function () {return view('welcome');});
 Route::get('/sitemap',            'App\Http\Controllers\SitemapController@sitemap');
 
 
-
 Route::get('/dash/login',                   'App\Http\Controllers\DashboardController@authLogin');
-Route::get('/dash/auth/callback',           'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/auth/callback',           'App\Http\Controllers\DashboardController@authLoginCallback');
 
 Route::get('/dash/dash/news-sales-orders',  'App\Http\Controllers\DashboardController@authLogin');
 Route::get('/dash/dash/sheet-export',       'App\Http\Controllers\DashboardController@authLogin');
