@@ -37,20 +37,19 @@ Route::get('/sitemap',            'App\Http\Controllers\SitemapController@sitema
 
 
 
-Route::get('/dash/login', function () {return view('welcome');});
+Route::get('/dash/login',                   'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/auth/callback',           'App\Http\Controllers\DashboardController@authLogin');
 
-Route::get('/dash/auth/callback', function () {return view('welcome');});
+Route::get('/dash/dash/news-sales-orders',  'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/dash/sheet-export',       'App\Http\Controllers\DashboardController@authLogin');
 
-Route::get('/dash/dash/news-sales-orders', function () {return view('welcome');});
-Route::get('/dash/dash/sheet-export', function () {return view('welcome');});
+Route::get('/dash/platform/admin-logs',     'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/platform/chat-logs',      'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/platform/transations',    'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/platform/sales-orders',   'App\Http\Controllers\DashboardController@authLogin');
 
-Route::get('/dash/platform/admin-logs', function () {return view('welcome');});
-Route::get('/dash/platform/chat-logs', function () {return view('welcome');});
-Route::get('/dash/platform/transations', function () {return view('welcome');});
-Route::get('/dash/platform/sales-orders', function () {return view('welcome');});
-
-Route::get('/dash/settings/my-account', function () {return view('welcome');});
-Route::get('/dash/settings/logout', function () {return view('welcome');});
+Route::get('/dash/settings/my-account',     'App\Http\Controllers\DashboardController@authLogin');
+Route::get('/dash/settings/logout',         'App\Http\Controllers\DashboardController@authLogin');
 
 
 

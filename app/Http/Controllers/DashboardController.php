@@ -9,8 +9,7 @@ class DashboardController extends Controller
      */
     public function authLogin()
     {
-        dd(url('/'));
-        // ...
+        return view('dash.login');
     }
 
     public function authLoginCallback()
